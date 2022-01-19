@@ -11,7 +11,7 @@
     align-items: center;
  }
 
- .preNav > div >span{
+.preNav > div >span{
     color: rgba(180, 180, 180, 0.644);
     font-size: 0.8vmax;
     font-weight: 100;
@@ -25,9 +25,7 @@
     fill: rgb(255, 255, 255);
 }
 
-
 .preNav > div > a{
-
     color: rgb(180, 180, 180);
     font-size: 0.9vmax;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
