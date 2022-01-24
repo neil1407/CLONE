@@ -8,6 +8,7 @@ import Offers from './components/Offers';
 import Heading from './components/Heading';
 import StarProducts from './components/StarProducts';
 import HotAccessoriesMenu from './components/HotAccessoriesMenu';
+import ProductReviews from './components/ProductReviews';
 
 
 
@@ -22,7 +23,8 @@ function App() {
       <StarProducts starProduct={data.starProduct} />
       <Heading text = "HOT ACCESSORIES" />
       <HotAccessoriesMenu />
-      
+      <Heading text="PRODUCT REVIEWS"/>
+      <ProductReviews productReviews={data.productReviews}/>
 
     </Router>
   );
