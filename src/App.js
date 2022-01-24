@@ -6,6 +6,9 @@ import data from "./data/data.json";
 import Slider from './components/Slider';
 import Offers from './components/Offers';
 import Heading from './components/Heading';
+import StarProducts from './components/StarProducts';
+import HotAccessoriesMenu from './components/HotAccessoriesMenu';
+
 
 
 function App() {
@@ -16,6 +19,10 @@ function App() {
       <Slider start={data.banner.start} />
       <Offers offer={data.offer} />
       <Heading text="STAR PRODUCT" />
+      <StarProducts starProduct={data.starProduct} />
+      <Heading text = "HOT ACCESSORIES" />
+      <HotAccessoriesMenu />
+      
 
     </Router>
   );
